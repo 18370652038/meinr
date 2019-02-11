@@ -1,0 +1,108 @@
+2019-02-06 19:57:06 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: meinr)
+2019-02-06 19:57:06 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.3.1, w3lib 1.18.0, Twisted 18.9.0, Python 3.6.0 (v3.6.0:41df79263a11, Dec 23 2016, 08:06:12) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.3, Platform Windows-7-6.1.7601-SP1
+2019-02-06 19:57:06 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'meinr', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'logs\\2019_02_19_57_06_meinr.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'meinr.spiders', 'SPIDER_MODULES': ['meinr.spiders']}
+2019-02-06 19:57:06 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-02-06 19:57:06 [py.warnings] WARNING: D:\spider_git\meinr\meinr\middlewares.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.downloadermiddleware.useragent` is deprecated, use `scrapy.downloadermiddlewares.useragent` instead
+  from scrapy.contrib.downloadermiddleware.useragent import UserAgentMiddleware
+
+2019-02-06 19:57:07 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'meinr.middlewares.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'meinr.middlewares.MeinrDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-02-06 19:57:07 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-02-06 19:57:07 [scrapy.middleware] INFO: Enabled item pipelines:
+['meinr.pipelines.MeinrPipeline']
+2019-02-06 19:57:07 [scrapy.core.engine] INFO: Spider opened
+2019-02-06 19:57:07 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-02-06 19:57:07 [meinr1] INFO: Spider opened: meinr1
+2019-02-06 19:57:23 [scrapy.core.engine] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "D:\Python\Python36\lib\site-packages\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "D:\Python\Python36\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "D:\Python\Python36\lib\socket.py", line 743, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\Python36\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "D:\Python\Python36\lib\site-packages\urllib3\connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Python\Python36\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Python\Python36\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Python\Python36\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Python\Python36\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "D:\Python\Python36\lib\http\client.py", line 964, in send
+    self.connect()
+  File "D:\Python\Python36\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "D:\Python\Python36\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000009C6E9B0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\Python36\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "D:\Python\Python36\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\Python\Python36\lib\site-packages\urllib3\util\retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='m.tupianzj.com', port=80): Max retries exceeded with url: /meinv/xiezhen/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000009C6E9B0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\Python36\lib\site-packages\scrapy\core\engine.py", line 127, in _next_request
+    request = next(slot.start_requests)
+  File "D:\spider_git\meinr\meinr\spiders\meinr1.py", line 31, in start_requests
+    num,papa = self.num(url,self.headers)
+  File "D:\spider_git\meinr\meinr\spiders\meinr1.py", line 17, in num
+    html = requests.get(url=url,headers=headers)
+  File "D:\Python\Python36\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Python\Python36\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python\Python36\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python\Python36\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python\Python36\lib\site-packages\requests\adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='m.tupianzj.com', port=80): Max retries exceeded with url: /meinv/xiezhen/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000009C6E9B0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',))
+2019-02-06 19:57:23 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-02-06 19:57:23 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 2, 6, 11, 57, 23, 378200),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 8,
+ 'log_count/WARNING': 1,
+ 'start_time': datetime.datetime(2019, 2, 6, 11, 57, 7, 55800)}
+2019-02-06 19:57:23 [scrapy.core.engine] INFO: Spider closed (finished)

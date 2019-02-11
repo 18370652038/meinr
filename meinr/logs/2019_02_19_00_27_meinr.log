@@ -1,0 +1,577 @@
+2019-02-06 19:00:27 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: meinr)
+2019-02-06 19:00:27 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.3.1, w3lib 1.18.0, Twisted 18.9.0, Python 3.6.0 (v3.6.0:41df79263a11, Dec 23 2016, 08:06:12) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.3, Platform Windows-7-6.1.7601-SP1
+2019-02-06 19:00:27 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'meinr', 'LOG_FILE': 'logs\\2019_02_19_00_27_meinr.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'meinr.spiders', 'SPIDER_MODULES': ['meinr.spiders']}
+2019-02-06 19:00:27 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-02-06 19:00:28 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-02-06 19:00:28 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-02-06 19:00:28 [scrapy.middleware] INFO: Enabled item pipelines:
+['meinr.pipelines.MeinrPipeline']
+2019-02-06 19:00:28 [scrapy.core.engine] INFO: Spider opened
+2019-02-06 19:00:28 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-02-06 19:00:42 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180331/158742_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:00:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180604/162678_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:00:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181129/174807_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:00:49 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170114/81282_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:00:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20171127/151650_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:00:53 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20171115/151341_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:00:55 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170122/82781_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:00:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170122/82780_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170123/82819_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170120/82473_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170120/82472_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170120/82469_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170118/82020_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:10 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170306/90187_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20140612/10694_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170205/84455_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170205/84453_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:15 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20150826/23850_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:18 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20171129/151762_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:26 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181205/175252_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:29 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181204/175147_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:29 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181204/175146_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:29 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181204/175145_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:29 [scrapy.extensions.logstats] INFO: Crawled 232 pages (at 232 pages/min), scraped 121 items (at 121 items/min)
+2019-02-06 19:01:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181203/175016_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20171130/151843_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181205/175254_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181130/174916_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20171130/151841_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20171130/151840_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20171130/151838_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:01:59 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20171129/151761_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:02:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170118/82019_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:02:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170118/82018_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:02:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170117/81701_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:02:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170117/81699_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:02:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170117/81698_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:02:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170116/81589_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:02:15 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170116/81586_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:02:15 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181206/175417_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:02:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181205/175263_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:02:23 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160830/62374_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:02:23 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20150924/27215_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:02:25 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181205/175259_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:02:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180102/153205_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:02:28 [scrapy.extensions.logstats] INFO: Crawled 336 pages (at 104 pages/min), scraped 199 items (at 78 items/min)
+2019-02-06 19:03:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170228/89203_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:03:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170123/82822_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:03:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/mingxing/xiezhen/20170125/83301_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:03:12 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170228/89205_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:03:12 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170227/89086_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:03:15 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170123/82821_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:03:15 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170227/89091_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:03:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170227/89084_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:03:25 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170225/88808_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:03:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170225/88805_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:03:28 [scrapy.extensions.logstats] INFO: Crawled 436 pages (at 100 pages/min), scraped 269 items (at 70 items/min)
+2019-02-06 19:03:32 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170225/88728_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:03:35 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170225/88701_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:03:35 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170221/87980_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:03:39 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170221/87979_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:03:42 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170220/87957_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:03:44 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170220/87956_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:03:47 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170220/87954_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:03:50 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170220/87952_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:03:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170215/86403_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:03:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170205/84456_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:04:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170306/90185_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:04:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170323/95248_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:04:10 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170304/90159_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:04:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170323/95247_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:04:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170306/90191_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:04:22 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170306/90190_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:04:31 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170306/90189_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:04:31 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170304/90161_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:04:31 [scrapy.extensions.logstats] INFO: Crawled 596 pages (at 160 pages/min), scraped 383 items (at 114 items/min)
+2019-02-06 19:04:35 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170306/90188_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:04:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170304/90158_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:04:42 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170304/90160_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:04:42 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170302/89844_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:04:45 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170302/89840_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:04:48 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170228/89208_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:04:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170228/89207_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:04:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170228/89206_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:04:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170131/83888_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:05:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170129/83798_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:05:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170127/83680_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:05:08 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170424/106579_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:05:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170603/124212_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:05:26 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170604/124219_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:05:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170701/131410_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:05:28 [scrapy.extensions.logstats] INFO: Crawled 713 pages (at 117 pages/min), scraped 465 items (at 82 items/min)
+2019-02-06 19:05:32 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170611/127003_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:05:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170604/124217_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:05:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170613/127622_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:05:36 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170604/124218_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:05:39 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170604/124214_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:05:39 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170603/124213_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:05:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170521/117672_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:05:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170603/124210_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:05:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170521/117671_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:05:53 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170521/117668_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:06:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170521/117667_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:06:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170424/106580_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:06:19 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170323/95255_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:06:22 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170323/95253_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:06:22 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170323/95249_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:06:25 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170701/131411_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:06:28 [scrapy.extensions.logstats] INFO: Crawled 832 pages (at 119 pages/min), scraped 546 items (at 81 items/min)
+2019-02-06 19:06:30 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20171212/152288_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:06:30 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20171230/153176_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:06:32 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180102/153202_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:06:33 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180605/162782_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:06:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180102/153207_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:06:37 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180606/162795_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:06:40 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180605/162783_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:06:40 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180605/162785_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:06:42 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20171212/152285_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:06:44 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20171230/153175_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:06:44 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20171212/152284_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:06:54 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20171115/151337_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:06:54 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20171230/153174_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:06:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20171212/152287_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:00 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20171130/151860_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:00 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170905/145957_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:00 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20171115/151336_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:02 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20171115/151334_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:04 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170905/145955_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:04 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170905/145953_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170701/131414_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170701/131412_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180130/155588_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:31 [scrapy.extensions.logstats] INFO: Crawled 990 pages (at 158 pages/min), scraped 662 items (at 116 items/min)
+2019-02-06 19:07:31 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180225/156249_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:33 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180226/156256_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180225/156254_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180225/156252_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180225/156250_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:39 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180225/156248_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:42 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180203/155854_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180203/155853_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180203/155849_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:55 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180203/155848_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:55 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180130/155586_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180613/163291_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180612/163206_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:07:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180606/162796_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:02 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180111/153638_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:04 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180720/165283_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180130/155585_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180130/155584_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180122/154152_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:12 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180119/154062_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:16 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180704/164236_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180704/164263_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180119/154064_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180112/153652_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:19 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180704/164233_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:19 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180703/164169_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:19 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180704/164217_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:19 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180703/164168_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180614/163373_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:23 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180614/163371_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:23 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180614/163302_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180613/163293_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:33 [scrapy.extensions.logstats] INFO: Crawled 1163 pages (at 173 pages/min), scraped 779 items (at 117 items/min)
+2019-02-06 19:08:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181106/172989_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181211/175781_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:40 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181127/174497_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181210/175712_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181109/173280_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:48 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181109/173281_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:48 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181129/174806_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:48 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181210/175704_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:50 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181211/175779_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:50 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181210/175705_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:52 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181112/173401_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:52 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181112/173400_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:59 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181109/173278_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:08:59 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181107/173141_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180829/168140_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180827/167970_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180810/166812_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:02 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20180810/166792_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20140529/10248_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20151014/29726_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20151002/28157_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181218/176448_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181215/176211_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:23 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181218/176450_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:25 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190112/179102_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:25 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190130/180244_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:31 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190131/180358_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:31 [scrapy.extensions.logstats] INFO: Crawled 1360 pages (at 197 pages/min), scraped 899 items (at 120 items/min)
+2019-02-06 19:09:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181106/172969_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181106/172962_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160929/65280_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190130/180245_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:35 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181218/176469_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:35 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160914/63887_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:39 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181218/176468_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:39 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181218/176462_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:41 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181220/176804_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:41 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181219/176599_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:44 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181218/176467_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:44 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181215/176201_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190112/179103_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:48 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190112/179104_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:50 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190109/178758_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:50 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190109/178740_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:53 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181228/177656_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:59 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181227/177479_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:09:59 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181228/177655_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:10:02 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181220/176841_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:10:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181220/176807_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:10:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181215/176194_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:10:10 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20181212/175864_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:10:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190131/180410_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:10:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190201/180594_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:10:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190131/180411_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:10:18 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190124/180149_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:10:29 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190129/180197_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:10:29 [scrapy.extensions.logstats] INFO: Crawled 1530 pages (at 170 pages/min), scraped 1012 items (at 113 items/min)
+2019-02-06 19:10:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190128/180171_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:10:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170110/80587_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:10:49 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170110/80584_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:10:53 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170114/81281_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:11:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170113/81010_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:11:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170113/81008_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:11:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170110/80595_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:11:10 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170110/80594_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:11:16 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170110/80592_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:11:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170110/80588_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:11:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190125/180154_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:11:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190129/180196_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:11:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190112/179100_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:11:29 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190128/180170_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:11:29 [scrapy.extensions.logstats] INFO: Crawled 1640 pages (at 110 pages/min), scraped 1092 items (at 80 items/min)
+2019-02-06 19:11:35 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170109/80358_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:11:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170105/79543_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:11:40 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170108/80094_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:11:40 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170108/80093_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:11:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170106/79895_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:11:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170106/79893_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:11:54 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170105/79545_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:11:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170105/79540_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:11:57 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170104/79308_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170103/79045_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:14 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190125/180155_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:14 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190112/179101_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:16 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190131/180409_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190131/180413_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190131/180357_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20190131/180412_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:27 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161224/77214_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161223/77009_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:33 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161224/77212_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:33 [scrapy.extensions.logstats] INFO: Crawled 1790 pages (at 150 pages/min), scraped 1193 items (at 101 items/min)
+2019-02-06 19:12:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161216/75367_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161216/75364_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161216/75365_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:40 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161212/74380_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:44 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161227/77582_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:48 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161218/75838_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:52 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161225/77423_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:52 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161218/75839_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:55 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161217/75639_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:55 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161219/76138_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:55 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161227/77584_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:12:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161228/77888_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:13:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161226/77525_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:13:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161226/77528_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:13:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161227/77581_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:13:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161221/76588_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:13:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161224/77210_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:13:18 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161212/74375_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:13:18 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161212/74373_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:13:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161210/74106_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:13:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161216/75300_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:13:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161213/74561_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:13:29 [scrapy.extensions.logstats] INFO: Crawled 1919 pages (at 129 pages/min), scraped 1281 items (at 88 items/min)
+2019-02-06 19:13:37 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161216/75299_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:13:40 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161216/75297_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:13:44 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161215/75047_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:13:48 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161213/74559_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:13:48 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161213/74565_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:13:48 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161209/73982_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:13:49 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161219/76135_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:13:49 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161218/75840_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:13:54 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161231/78562_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:13:55 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161231/78560_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161205/73272_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161205/73280_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161208/73876_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:10 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161207/73759_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:16 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161208/73869_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:16 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161207/73761_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:19 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161207/73754_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:19 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161207/73756_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:22 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161206/73573_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:22 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161205/73277_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:26 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161203/73035_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:29 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161205/73276_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:29 [scrapy.extensions.logstats] INFO: Crawled 2070 pages (at 151 pages/min), scraped 1378 items (at 97 items/min)
+2019-02-06 19:14:32 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170102/78819_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:32 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170101/78755_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:32 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170103/79040_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:35 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170103/79042_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:35 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20170101/78753_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161230/78370_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161229/77985_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:50 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161229/77959_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:50 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161228/77890_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:54 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161123/71209_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:14:57 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161202/72782_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:15:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161112/69721_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:15:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161202/72786_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:15:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161118/70416_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:15:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161118/70414_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:15:16 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161117/70222_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:15:16 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161123/71211_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:15:27 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161124/71330_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:15:32 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161129/72100_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:15:32 [scrapy.extensions.logstats] INFO: Crawled 2207 pages (at 137 pages/min), scraped 1467 items (at 89 items/min)
+2019-02-06 19:15:32 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161130/72533_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:15:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161128/71936_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:15:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161126/71680_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:15:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161125/71482_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:15:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161124/71336_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:15:55 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161123/71208_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:15:59 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161123/71206_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:16:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161124/71327_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:16:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161124/71324_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:16:15 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161114/69844_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:16:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161116/70037_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:16:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161115/70013_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:16:21 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161119/70444_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:16:22 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161118/70420_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:16:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161119/70449_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:16:36 [scrapy.extensions.logstats] INFO: Crawled 2326 pages (at 119 pages/min), scraped 1545 items (at 78 items/min)
+2019-02-06 19:16:37 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161119/70446_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:16:40 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161114/69848_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:16:40 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161120/70545_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:16:40 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161119/70441_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:16:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161117/70216_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:16:45 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161115/70010_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:16:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161117/70214_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:16:49 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161113/69754_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:16:49 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161113/69749_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:16:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161113/69747_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:16:59 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161113/69746_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:17:04 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161112/69723_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:17:04 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161111/69604_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:17:04 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161111/69602_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:17:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161111/69600_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:17:08 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161120/70553_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:17:15 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161203/73033_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:17:18 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161202/72790_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:17:26 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161123/71204_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:17:27 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161105/68932_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:17:31 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161107/69167_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:17:31 [scrapy.extensions.logstats] INFO: Crawled 2477 pages (at 151 pages/min), scraped 1640 items (at 95 items/min)
+2019-02-06 19:17:44 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161108/69301_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:17:47 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161108/69297_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:17:52 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161107/69173_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:17:52 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161108/69303_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:17:52 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161107/69169_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:18:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161104/68855_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:18:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161106/69101_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:18:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161104/68852_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:18:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161104/68849_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:18:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161104/68845_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:18:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161111/69596_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:18:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161128/71931_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:18:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161117/70220_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:18:18 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161117/70218_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:18:18 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161122/70905_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:18:21 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161202/72788_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:18:21 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161122/70896_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:18:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161109/69389_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:18:30 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161110/69474_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:18:30 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161109/69393_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:18:30 [scrapy.extensions.logstats] INFO: Crawled 2569 pages (at 92 pages/min), scraped 1714 items (at 74 items/min)
+2019-02-06 19:18:32 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161109/69392_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:18:32 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161120/70551_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:18:35 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161120/70549_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:18:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161012/66223_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:18:57 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161004/65600_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:19:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161001/65358_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:19:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161014/66304_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:19:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161004/65595_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:19:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161014/66312_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:19:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161014/66310_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:19:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161014/66308_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:19:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161013/66290_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:19:23 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161013/66285_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:19:33 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161012/66213_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:19:33 [scrapy.extensions.logstats] INFO: Crawled 2693 pages (at 124 pages/min), scraped 1785 items (at 71 items/min)
+2019-02-06 19:19:37 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161013/66288_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:19:41 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161011/66130_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:19:44 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161012/66221_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:19:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161027/67978_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:19:49 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161010/66089_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:19:49 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161026/67821_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:19:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161026/67823_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:19:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161026/67822_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:19:54 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161025/67685_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:19:55 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161026/67819_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:19:59 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161025/67689_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:20:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161025/67683_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:20:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160926/65133_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:20:10 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160929/65286_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:20:27 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161003/65498_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:20:27 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161003/65496_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:20:37 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161003/65493_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:20:37 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161002/65407_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:20:37 [scrapy.extensions.logstats] INFO: Crawled 2827 pages (at 134 pages/min), scraped 1882 items (at 97 items/min)
+2019-02-06 19:20:41 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161002/65402_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:20:41 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161002/65404_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:20:44 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161001/65353_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:20:44 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160930/65310_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:20:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160930/65307_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:20:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160930/65303_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:20:55 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160925/65098_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:21:04 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160925/65096_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:21:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160925/65093_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:21:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161005/65761_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:21:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161029/68175_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:21:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161029/68168_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:21:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161017/66617_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:21:27 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161017/66623_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:21:27 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161029/68177_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:21:27 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161010/66084_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:21:30 [scrapy.extensions.logstats] INFO: Crawled 2951 pages (at 124 pages/min), scraped 1966 items (at 84 items/min)
+2019-02-06 19:21:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161028/68051_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:21:41 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161028/68040_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:21:48 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161016/66545_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:21:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161015/66450_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:21:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161015/66448_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:22:04 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161010/66082_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:22:04 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161006/65805_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:22:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161003/65500_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:22:16 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161006/65801_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:22:16 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161004/65593_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:22:18 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161101/68571_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:22:18 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161030/68243_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:22:18 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161018/66782_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:22:31 [scrapy.extensions.logstats] INFO: Crawled 3054 pages (at 103 pages/min), scraped 2036 items (at 70 items/min)
+2019-02-06 19:22:36 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161023/67530_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:22:40 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161024/67639_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:22:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160924/65053_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:22:54 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160925/65091_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:22:59 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160924/65055_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:22:59 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160924/65051_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:22:59 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160923/64946_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:23:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160923/64944_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:23:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160921/64723_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:23:10 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160921/64712_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:23:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160920/64566_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:23:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161023/67528_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:23:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161019/66924_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:23:14 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161020/67275_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:23:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161018/66780_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:23:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161018/66775_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:23:23 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161103/68715_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:23:23 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161103/68714_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:23:33 [scrapy.extensions.logstats] INFO: Crawled 3178 pages (at 124 pages/min), scraped 2132 items (at 96 items/min)
+2019-02-06 19:23:33 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20161102/68599_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:23:45 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160824/61911_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:23:48 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160828/62133_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160911/63477_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160920/64560_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160818/61374_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160823/61823_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160911/63478_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160831/62453_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160827/61972_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160822/61697_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160831/62450_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160913/63749_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:28 [scrapy.extensions.logstats] INFO: Crawled 3297 pages (at 119 pages/min), scraped 2205 items (at 73 items/min)
+2019-02-06 19:24:30 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160823/61826_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160901/62551_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160901/62549_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160830/62379_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160818/61273_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:45 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160820/61525_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:48 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160820/61531_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:48 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160820/61528_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:50 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160819/61439_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160818/61379_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:53 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160818/61372_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:53 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160816/61057_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160920/64558_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:24:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160913/63744_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:25:08 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160912/63645_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:25:08 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160913/63747_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:25:12 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160918/64271_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:25:14 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160823/61821_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:25:16 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160823/61811_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:25:19 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160830/62371_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:25:19 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160822/61704_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:25:31 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160822/61702_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:25:31 [scrapy.extensions.logstats] INFO: Crawled 3444 pages (at 147 pages/min), scraped 2303 items (at 98 items/min)
+2019-02-06 19:25:35 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160830/62378_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:25:35 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160901/62556_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:25:37 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160828/62140_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:25:37 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160901/62554_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:25:37 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160828/62138_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:25:37 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160828/62136_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:25:39 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160821/61555_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:25:45 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160903/62745_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:25:54 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160911/63475_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:26:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160917/64137_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:26:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160918/64269_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:26:04 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160914/63882_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:26:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160918/64266_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:26:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160814/60788_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:26:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160814/60781_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:26:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160917/64132_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:26:22 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160815/60897_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:26:34 [scrapy.extensions.logstats] INFO: Crawled 3557 pages (at 113 pages/min), scraped 2374 items (at 71 items/min)
+2019-02-06 19:26:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160815/60895_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:26:35 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160815/60900_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:26:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160815/60898_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:26:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160814/60790_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:26:45 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160911/63470_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:26:53 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160909/63313_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:27:00 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160909/63309_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:27:08 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160816/61049_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:27:08 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160815/60903_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:27:10 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160815/60902_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:27:10 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160908/63190_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:27:15 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160908/63184_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:27:18 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160905/62958_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:27:18 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160905/62954_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:27:23 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160904/62864_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:27:27 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160903/62749_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:27:33 [scrapy.extensions.logstats] INFO: Crawled 3645 pages (at 88 pages/min), scraped 2447 items (at 73 items/min)
+2019-02-06 19:27:41 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160805/59806_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:27:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160722/58374_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:27:47 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160727/58977_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:27:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160809/60120_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:27:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160722/58368_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:28:00 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160725/58734_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:28:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160801/59428_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:28:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160801/59432_1.html>: HTTP status code is not handled or not allowed
+2019-02-06 19:28:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://m.tupianzj.com/meinv/20160721/58247_1.html>: HTTP status code is not handled or not allowed
